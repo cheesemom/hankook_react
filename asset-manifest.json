@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hankook_react/static/css/main.abb21db0.css",
+    "main.js": "/hankook_react/static/js/main.354fc20e.js",
+    "static/media/main_m02.jpg": "/hankook_react/static/media/main_m02.48a0b8f36124cbe7a890.jpg",
+    "static/media/main_m03.jpg": "/hankook_react/static/media/main_m03.1559ec9b1e18beb50645.jpg",
+    "static/media/main_m01.jpg": "/hankook_react/static/media/main_m01.fb9e5a378be02e62097c.jpg",
+    "index.html": "/hankook_react/index.html",
+    "main.abb21db0.css.map": "/hankook_react/static/css/main.abb21db0.css.map",
+    "main.354fc20e.js.map": "/hankook_react/static/js/main.354fc20e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abb21db0.css",
+    "static/js/main.354fc20e.js"
+  ]
+}
