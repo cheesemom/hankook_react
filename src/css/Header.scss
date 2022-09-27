@@ -1,5 +1,37 @@
 @use 'common';
 
+/* Header */
+.header {
+    line-height: 100px;
+}
+
+.header .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px 0 140px;
+}
+
+.header nav {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.header nav>ul a {
+    display: block;
+}
+
+.header nav>ul {
+    display: flex;
+    gap: 40px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .Header {
     position: fixed;
     top: 0;

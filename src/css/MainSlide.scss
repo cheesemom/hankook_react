@@ -4,67 +4,40 @@
     position: relative;
     padding: 10rem 0 0;
 
-    .slick-track {
-        transition-duration: 0.5ms;
-    }
-
 
     .itm {
         position: relative;
-        height: calc(100vh - 10rem);
+        height: calc(100vh - 27rem);
         color: common.$wColor;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
 
         &.itm01 {
-            background-image: url(../../public/assets/img/main_m01.jpg);
+            background-image: url(../../public/assets/img/main02.jpg);
         }
 
         &.itm02 {
-            background-image: url(../../public/assets/img/main_m02.jpg);
+            background-image: url(../../public/assets/img/main03.jpg);
         }
 
         &.itm03 {
-            background-image: url(../../public/assets/img/main_m03.jpg);
+            background-image: url(../../public/assets/img/main04.jpg);
         }
 
-        .inner {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        &.itm04 {
+            background-image: url(../../public/assets/img/main05.jpg);
+        }
 
-            strong {
-                display: block;
-                margin: 0 0 1rem 0;
-                font-size: 1.4rem;
-                text-transform: uppercase;
-
-            }
-
-            p {
-                margin: 0 0 2rem 0;
-                font-size: 2.5rem;
-            }
-
-            .des {
-                margin: 0 0 2rem 0;
-                font-size: 1.8rem;
-                font-weight: 600;
-                text-transform: uppercase;
-            }
-
-            a {
-                text-transform: uppercase;
-                text-decoration: underline;
-            }
+        &.itm05 {
+            background-image: url(../../public/assets/img/main06.jpg);
         }
     }
 
+
     .slick-dots {
         position: absolute;
-        bottom: 8rem;
+        bottom: 3rem;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
@@ -74,14 +47,15 @@
             margin: 0 0.5rem;
 
             button {
-                width: 4rem;
-                height: 0.4rem;
+                width: 13px;
+                height: 13px;
+                border-radius: 0px;
+                margin-right: 0;
                 background: common.$mainColor;
                 font-size: 0;
                 border: none;
                 outline: none;
-
-
+                cursor: pointer;
             }
 
             &.slick-active button {

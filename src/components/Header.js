@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import MainNav from './MainNav'
-import TopBanner from './TopBanner'
 import '../css/Header.scss'
 import { FiShoppingCart, FiUserPlus, FiSearch } from "react-icons/fi";
+
 
 const Header = () => {
     const [on, setOn] = useState(false);
@@ -19,11 +19,10 @@ const Header = () => {
     return (
         <header className={`Header ${on ? 'on' : ''}`}>
             {console.log(on)}
-            <TopBanner />
             <div className='gnb'>
                 <h1>
                     <a href="/">
-                        <img src={process.env.PUBLIC_URL + '/assets/img/top_logo.png'} alt="" />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/Logo.png'} alt="" />
                     </a>
                 </h1>
                 <nav className='inner'>

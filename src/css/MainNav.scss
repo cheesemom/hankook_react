@@ -1,0 +1,50 @@
+@use 'common';
+
+
+/* 다단메뉴 */
+nav>ul>li>a {
+    display: block;
+    padding: 0 30px;
+}
+
+nav>ul ul a {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+nav>ul>li ul {
+    position: absolute;
+    inset: 90px auto auto 50%;
+    z-index: 999;
+    visibility: hidden;
+    width: 120%;
+    transform: translateX(-50%);
+    background: #fff;
+    opacity: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+nav>ul>li:hover ul {
+    inset: 100px auto auto 50%;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+nav>ul>li>ul>li:hover {
+    background: #ddd;
+    color: #d3730d;
+    transition: 0.5s;
+}
+
+nav>ul>li ul li {
+    position: relative;
+    background: #fff;
+}
