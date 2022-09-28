@@ -1,0 +1,89 @@
+@use 'common';
+
+
+.MD {
+    padding: 100px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.MD .row {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.left_pick h3 {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 11px 5px 12px;
+    margin: 0 0 20px;
+    font-size: 13px;
+}
+
+.left_pick span.more {
+    position: absolute;
+    top: 10px;
+    right: 33%;
+    font-size: 11px;
+}
+
+.gallery_inner img {
+    margin-right: 5px;
+}
+
+
+.right_notice h3 {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 11px 5px 12px;
+    font-size: 13px;
+}
+
+.right_notice span.more {
+    position: absolute;
+    top: 10px;
+    right: 3%;
+    font-size: 11px;
+}
+
+.right_notice table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 30px;
+    font-size: 12px;
+}
+
+.right_notice table.type {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+
+.right_notice tbody {
+    margin: 20px 10px;
+}
+
+.right_notice table.type th {
+    width: 250px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.right_notice table.type td {
+    width: 90px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.left_pick,
+.right_notice {
+    padding: 0 10px 10px 20px;
+}

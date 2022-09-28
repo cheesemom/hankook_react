@@ -1,0 +1,67 @@
+@use 'common';
+
+
+.layer {
+    padding: 50px 0;
+    width: 100%; //1520px
+    margin: 0 auto;
+}
+
+.inner {
+    position: relative;
+    padding: 0 0 50px 0;
+}
+
+.f_column,
+.s_column {
+    display: flex;
+}
+
+.f_column {
+    padding-bottom: 5px;
+}
+
+.f_column .cup {
+    padding-right: 5px;
+}
+
+.s_column .dish {
+    padding-right: 5px;
+}
+
+.con_txt .more a {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    line-height: 50px;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+}
+
+.con_txt .more a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.con_txt .P a {
+    top: 60px;
+    left: 200px;
+}
+
+.con_txt .W a {
+    top: 60px;
+    right: 450px;
+}
+
+.con_txt .T a {
+    bottom: 57px;
+    left: 450px;
+}
+
+.con_txt .A a {
+    bottom: 57px;
+    right: 200px;
+}

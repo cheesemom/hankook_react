@@ -1,0 +1,107 @@
+@use 'common';
+
+
+.cs {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cs h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+// .cs .row {
+//     position: relative;
+//     display: inline-block;
+//     display: flex;
+//     margin-right: -15px;
+//     margin-left: -15px;
+// }
+
+// .cs .left,
+.cs .mid,
+.cs .right {
+    padding: 0 20px 20px 20px;
+}
+
+/* CS mid */
+.cs_txt h3 {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 11px 5px 12px;
+    font-size: 13px;
+}
+
+.cs_txt span.more {
+    position: absolute;
+    top: 10px;
+    left: 63%;
+    font-size: 11px;
+}
+
+.mid table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 36px;
+    font-size: 12px;
+}
+
+.mid table.type04 {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: left;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+
+.mid tbody {
+    margin: 20px 10px;
+}
+
+.mid table.type04 th {
+    width: 300px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.mid table.type04 td {
+    width: 110px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+/* CS right */
+.output h3 {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 11px 5px 12px;
+    margin: 0 0 10px;
+    font-size: 13px;
+}
+
+.right .customer {
+    width: 350px;
+}
+
+.customer li:first-child {
+    background-color: #333;
+    border-radius: 3px;
+    padding: 13px;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    height: 42px;
+}
+
+.customer li:last-child {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    line-height: 25px;
+    font-size: 13px;
+}

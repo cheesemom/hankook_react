@@ -1,13 +1,31 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Main from './pages/Main';
-//https://desipossa.github.io/shop_cra/assets/data.json
+
+import Intro from './shop/Intro';
+import Notice from './shop/Noticde';
+import './css/ShopDetail.scss';
+
+import MD from './components/MD';
+import Issue from './components/Issue';
+import Mid from './components/Mid';
+import Layer from './components/Layer';
+import MainSlide from './components/MainSlide';
+
+
+
 const App = () => {
     return (
         <>
             <Header />
-            <Main />
+            <MainSlide />
+
+            <MD />
+            <Issue />
+            <Mid />
+
+            <Layer />
+
             <Footer />
         </>
     )

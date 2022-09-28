@@ -3,6 +3,9 @@ import MainNav from './MainNav'
 import '../css/Header.scss'
 import { FiShoppingCart, FiUserPlus, FiSearch } from "react-icons/fi";
 
+import Intro from '../shop/Intro';
+import Notice from '../shop/Noticde';
+
 
 const Header = () => {
     const [on, setOn] = useState(false);
