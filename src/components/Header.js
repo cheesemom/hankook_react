@@ -4,7 +4,7 @@ import '../css/Header.scss'
 import { FiShoppingCart, FiUserPlus, FiSearch } from "react-icons/fi";
 
 import Intro from '../shop/Intro';
-import Notice from '../shop/Noticde';
+import Notice from '../shop/Notice';
 
 
 const Header = () => {

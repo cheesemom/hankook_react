@@ -1,7 +1,6 @@
 @use 'common';
 
 
-/* Header */
 .Header {
     position: fixed;
     top: 0;
@@ -9,7 +8,6 @@
     right: 0;
     z-index: 999;
     line-height: 100px;
-
 
     &.on .gnb {
         background: common.$wColor;
@@ -22,13 +20,13 @@
         width: 100%;
         justify-content: space-between;
         margin: 0 auto;
-        padding: 0 0 0 350px;
 
         ul {
             display: flex;
-            gap: 40px;
-            font-size: 13px;
-            font-weight: 500;
+            gap: 90px;
+            font-size: 14px;
+            font-weight: 600;
+
 
             li {
                 position: relative;
@@ -58,23 +56,21 @@
 
         .inner {
             margin: 0 auto;
-            width: 90%;
-            max-width: 1300px;
-            margin: 0px auto;
-            padding: 0px 15px;
+            width: 1200px;
+            padding: 0 0 0 190px;
         }
     }
 
     h1 {
         position: absolute;
         top: 0;
-        left: 8rem;
+        left: 15rem;
     }
 
     .rt {
         position: absolute;
-        top: 0;
-        right: 8rem;
+        top: 10%;
+        right: 15rem;
     }
 
 

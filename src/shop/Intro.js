@@ -8,7 +8,6 @@ const Intro = () => {
 
             </div>
         </section>
-
     )
 }
 

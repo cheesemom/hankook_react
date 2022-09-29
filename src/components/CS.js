@@ -16,6 +16,7 @@ const CS = () => {
 
 
     return (
+
         <section class="cs">
             <h2>CUSTOMER SERVICE</h2>
             <div className="row">
