@@ -1,16 +1,26 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
+
+const NAVLINK = [
+    { content: "COMPANY", link: "/Intro" },
+    { content: "PRODUCT", link: "" },
+    { content: "BRANDS", link: "" },
+    { content: "B2B / B2C", link: "" },
+    { content: "COMMUNITY", link: "/Notice" },
+    { content: "CUSTOMER", link: "" },
+]
 
 const MainNav = () => {
     return (
         <ul>
-            <li><Link to='/'>COMPANY</Link></li>
-            <li>PRODUCT</li>
-            <li>BRANDS</li>
-            <li>B2B / B2C</li>
-            <li><Link to='/'>COMMUNITY</Link></li>
-            <li>CUSTOMER</li>
+            {
+                NAVLINK.map((it, idx) => {
+                    return (
+                        <li key={idx}><NavLink to={it.link}>{it.content}</NavLink></li>
+                    )
+                })
+            }
         </ul>
     )
 }

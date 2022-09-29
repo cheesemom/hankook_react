@@ -13,12 +13,20 @@ import Mid from './components/Mid';
 import Layer from './components/Layer';
 import MainSlide from './components/MainSlide';
 import CS from './components/CS';
+import { Route, Routes } from 'react-router-dom';
 
 
 const App = () => {
     return (
         <>
             <Header />
+            <Routes>
+                <Route>
+                    <Route path='/Intro' />
+                    <Route path='/Notice' />
+                </Route>
+            </Routes>
+
             <MainSlide />
 
             <MD />
